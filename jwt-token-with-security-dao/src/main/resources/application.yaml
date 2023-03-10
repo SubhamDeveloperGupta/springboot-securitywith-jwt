@@ -1,0 +1,21 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/admin_panel
+    username: root
+    password: Subham@1997
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+    
+    
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.76de120a1efeab69
+            client-secret: ce19219952f23f3591795c6a393bc698f2e981ed
