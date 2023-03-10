@@ -50,10 +50,6 @@ public class UserInfoConfiguration {
 				.authenticated()
 				.and()
 				
-				.antMatcher("/user/github")
-				.oauth2Login()
-				.permitAll()
-				.and()
 				
 				.sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
